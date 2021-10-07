@@ -1,11 +1,10 @@
-package com.learn.microservices.limitsservice;
+package com.learn.microservices.limitsservice.bean;
 
 public class LimitConfiguration {
     private int maximum;
     private int minimum;
 
-    protected LimitConfiguration() {
-    }
+    protected LimitConfiguration() {}
 
     public LimitConfiguration(int maximum, int minimum) {
         super();
